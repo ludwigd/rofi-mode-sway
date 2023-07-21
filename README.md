@@ -8,6 +8,13 @@ A Rofi mode for switching windows under Sway that can be used in combination wit
 
 ## Installation
 
+The script depends on the following binaries:
+
+- swaymsg
+- jq
+- xargs
+- rofi (not a real dependency, but the script is useless without)
+
 ### Fedora
 
 For Fedora there is a COPR you can use:
