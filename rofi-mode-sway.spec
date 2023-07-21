@@ -1,8 +1,8 @@
 %global srcname rofi-mode-sway
 
 Name:       rofi-mode-sway
-Version:    0.1
-Release:    1%{?dist}
+Version:    0.0.0
+Release:    0%{?dist}
 Summary:    Switch windows under Sway using Rofi
 License:    GPLv3+
 URL: https://github.com/ludwigd/%{srcname}
@@ -37,5 +37,3 @@ install -m 755 ./rofi-mode-sway.sh %{buildroot}%{_bindir}/rofi-mode-sway.sh
 %{_bindir}/rofi-mode-sway.sh
 
 %changelog
-* Fri Jul 21 2023 Damian Ludwig <ludwigd@fedoraproject.org> - 0.1-1
-- First release
