@@ -1,4 +1,6 @@
-# rofi-mode-sway
+# yaws
+
+Yet Another Window Switcher for Rofi+Sway.
 
 A Rofi mode for switching windows under Sway that can be used in combination with other Rofi modes.
 
@@ -10,6 +12,7 @@ A Rofi mode for switching windows under Sway that can be used in combination wit
 
 The script depends on the following binaries:
 
+- bash
 - swaymsg
 - jq
 - xargs
@@ -21,17 +24,17 @@ For Fedora there is a COPR you can use:
 
 ```
 # dnf copr enable ludwigd/rofi-mode-sway
-# dnf install rofi-mode-sway
+# dnf install yaws
 ```
 
 ### Other
 
-Copy `rofi-mode-sway.sh` to a location in your `$PATH`, e.g., `~/bin`, and make it executable with `chmod +x rofi-mode-sway.sh`.
+Copy `yaws` to a location in your `$PATH`, e.g., `~/bin`, and make it executable with `chmod +x yaws`.
 
 ## Usage
 
 The intended way to use this script is in combination with other Rofi modes. To combine it with `drun` mode, launch Rofi like this:
 
 ```
-rofi -modes combi -combi-modes sway:rofi-mode-sway.sh,drun -show combi
+rofi -modes combi -combi-modes sway:yaws,drun -show combi
 ```
