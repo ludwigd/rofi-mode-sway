@@ -41,6 +41,9 @@ install -m 755 ./yaws %{buildroot}%{_bindir}/yaws
 %{_bindir}/yaws
 
 %changelog
+* Wed Jul 26 2023 Damian Ludwig 0.0.1-1
+- rename to yaws (yet another window switcher)
+
 * Fri Jul 21 2023 Damian Ludwig 0.0.1-1
 - new package built with tito
 
