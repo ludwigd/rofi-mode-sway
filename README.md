@@ -23,7 +23,7 @@ The script depends on the following binaries:
 For Fedora there is a COPR you can use:
 
 ```
-# dnf copr enable ludwigd/rofi-mode-sway
+e# dnf copr enable ludwigd/sway-supplemental
 # dnf install yaws
 ```
 
